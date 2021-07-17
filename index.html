@@ -126,11 +126,11 @@
 
 							<div class="about__information-data">
 								<i class="bx bxs-envelope about__information-icon"></i>
-								<span>vyshnavkls85@gmail.com</span>
+								<span>vyshnavks85@gmail.com</span>
 							</div>
 						</div>
 
-						<div class="about__information">
+						<!-- <div class="about__information">
 							<h3 class="about__information-title">Experience and support</h3>
 
 							<div class="about__information-data">
@@ -164,7 +164,7 @@
 									>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</section>
@@ -197,7 +197,7 @@
 						</div>
 
 						<div class="skills__data">
-							<span class="skills__name">Adobe XD</span>
+							<span class="skills__name">Figma/Adobe XD</span>
 							<span class="skills__number">60%</span>
 							<span class="skills__bar skills__angular"></span>
 						</div>
@@ -206,11 +206,11 @@
 					<div class="skills__content">
 						<h3 class="skills__subtitle">Backend</h3>
 
-						<div class="skills__data">
-							<span class="skills__name">PHP</span>
+						<!-- <div class="skills__data">
+							<span class="skills__name">MongoDB</span>
 							<span class="skills__number">70%</span>
 							<span class="skills__bar skills__php"></span>
-						</div>
+						</div> -->
 
 						<div class="skills__data">
 							<span class="skills__name">Node js</span>
@@ -295,12 +295,12 @@
 						<h3 class="services__title">UI/UX Design</h3>
 						<p class="services__description"></p>
 					</div>
-
+<!-- 
 					<div class="services__content">
 						<i class="bx bx-pen services__icon"></i>
 						<h3 class="services__title">Graphic Design</h3>
 						<p class="services__description"></p>
-					</div>
+					</div> -->
 
 					<div class="services__content">
 						<i class="bx bx-server services__icon"></i>
@@ -397,16 +397,16 @@
 				<h2 class="section-title">Get In Touch</h2>
 
 				<div class="contact__container bd-grid">
-					<form action="" class="contact__form">
+					<form action="contact__form.php" method="POST" class="contact__form">
 						<div class="contact__inputs">
-							<input type="text" placeholder="Name" class="contact__input" />
-							<input type="text" placeholder="Email" class="contact__input" />
+							<input type="text" name="name" placeholder="Name" class="contact__input" />
+							<input type="text" name="email" placeholder="Email" class="contact__input" />
 						</div>
 
 						<input type="text" placeholder="Project" class="contact__input" />
 
 						<textarea
-							name=""
+							name="message"
 							id=""
 							cols="0"
 							rows="10"
